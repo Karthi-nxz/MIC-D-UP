@@ -8,34 +8,24 @@ const Services = () => {
 
     const services = [
         {
-            icon: '🎸',
-            title: 'Concert Production',
-            description: 'Full-scale concert production with world-class sound systems, lighting rigs, and stage design for unforgettable live experiences.',
+            icon: '🎤',
+            title: 'Celebrity Pitching & Influencer Partnerships',
+            description: 'We connect your brand with the right celebrities, influencers, and public figures to boost visibility and credibility. Our team crafts strategic pitches focused on mutual value and long-term collaboration.',
         },
         {
-            icon: '🏢',
-            title: 'Corporate Events',
-            description: 'Professional audio-visual solutions for conferences, product launches, and corporate gatherings that leave lasting impressions.',
+            icon: '📰',
+            title: 'Public Relations & Media Outreach',
+            description: 'Our PR experts build buzz and media presence for your event through press releases, media kits, and targeted outreach to journalists and outlets. A strong media strategy ensures your event gets the attention it deserves.',
         },
         {
-            icon: '🎓',
-            title: 'College Fests',
-            description: 'High-energy setups for college festivals with cutting-edge sound, dynamic lighting, and crowd-pumping atmosphere.',
+            icon: '📣',
+            title: 'Promotion & Event Marketing',
+            description: 'From social media campaigns to digital ads and email blasts, we amplify your event\'s reach. We handle content creation, scheduling, and cross-platform promotion — all designed to maximize engagement and attendance.',
         },
         {
-            icon: '💒',
-            title: 'Wedding Stage Setup',
-            description: 'Elegant and customized stage designs with premium decor, lighting, and sound for your special day.',
-        },
-        {
-            icon: '🔊',
-            title: 'Professional Audio',
-            description: 'State-of-the-art sound systems, mixing consoles, and acoustic engineering for crystal-clear audio delivery.',
-        },
-        {
-            icon: '💡',
-            title: 'Lighting & Rigging',
-            description: 'Creative lighting design, LED walls, moving heads, and professional rigging for spectacular visual effects.',
+            icon: '🤝',
+            title: 'Sponsorship Activation & Stall Management',
+            description: 'We secure and manage sponsorship deals tailored to your event. From branded stalls and activations to sponsor visibility, we make sure every partner gets maximum exposure and value.',
         },
     ];
 

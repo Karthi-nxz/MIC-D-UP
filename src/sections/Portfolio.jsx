@@ -9,19 +9,19 @@ const Portfolio = () => {
 
     const filters = [
         { id: 'all', label: 'All' },
-        { id: 'concerts', label: 'Concerts' },
-        { id: 'corporate', label: 'Corporate' },
-        { id: 'weddings', label: 'Weddings' },
-        { id: 'college', label: 'College Fests' },
+        { id: 'brand-launch', label: 'Brand Launches' },
+        { id: 'gala', label: 'Corporate Galas' },
+        { id: 'festival', label: 'Festivals' },
+        { id: 'activation', label: 'Product Activations' },
     ];
 
     const projects = [
-        { id: 1, title: 'Rock Festival 2024', category: 'concerts', size: 'large' },
-        { id: 2, title: 'Tech Summit', category: 'corporate', size: 'small' },
-        { id: 3, title: 'Grand Wedding', category: 'weddings', size: 'small' },
-        { id: 4, title: 'College Fest Night', category: 'college', size: 'medium' },
-        { id: 5, title: 'Music Awards', category: 'concerts', size: 'medium' },
-        { id: 6, title: 'Product Launch', category: 'corporate', size: 'large' },
+        { id: 1, title: 'Luxury Brand Launch', category: 'brand-launch', size: 'large' },
+        { id: 2, title: 'Annual Corporate Gala', category: 'gala', size: 'small' },
+        { id: 3, title: 'Music & Culture Festival', category: 'festival', size: 'small' },
+        { id: 4, title: 'Tech Product Activation', category: 'activation', size: 'medium' },
+        { id: 5, title: 'Fashion Brand Showcase', category: 'brand-launch', size: 'medium' },
+        { id: 6, title: 'Charity Gala Night', category: 'gala', size: 'large' },
     ];
 
     const filteredProjects = activeFilter === 'all'

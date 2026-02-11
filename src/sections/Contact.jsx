@@ -26,8 +26,8 @@ const Contact = () => {
 
     const contactInfo = [
         { icon: '📍', label: 'Address', value: 'Chennai, India' },
-        { icon: '📞', label: 'Phone', value: '+91 636993732', href: 'tel:+916369933732' },
-        { icon: '✉️', label: 'Email', value: 'info@micdup.com', href: 'mailto:info@micdup.com' },
+        { icon: '📞', label: 'Phone', value: '+917845482970', href: 'tel:+917845482970' },
+        { icon: '✉️', label: 'Email', value: 'micdupeventproductions@gmail.com', href: 'mailto:micdupeventproductions@gmail.com' },
     ];
 
     return (
@@ -41,7 +41,7 @@ const Contact = () => {
                 >
                     <span className="section-tag">Get In Touch</span>
                     <h2 className="gold-underline">Contact Us</h2>
-                    <p>Ready to create something spectacular? Let's talk!</p>
+                    <p>Let's turn your event into an unforgettable experience.</p>
                 </motion.div>
 
                 <div className="contact-grid">
@@ -51,10 +51,10 @@ const Contact = () => {
                         animate={isInView ? { opacity: 1, x: 0 } : {}}
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
-                        <h3>Let's Discuss Your Event</h3>
+                        <h3>Let's Make It Happen</h3>
                         <p>
-                            Whether you're planning a concert, corporate event, or wedding,
-                            we're here to bring your vision to life with premium production services.
+                            Whether you're looking for celebrity pitching, PR support, promotions,
+                            stalls, or sponsorship collaborations — we're just one message away.
                         </p>
 
                         <div className="contact-details">
@@ -76,7 +76,7 @@ const Contact = () => {
                         <div className="quick-contact">
                             <h4>Quick Connect</h4>
                             <div className="quick-buttons">
-                                <a href="https://wa.me/916369933732" className="quick-btn whatsapp" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/917845482970" className="quick-btn whatsapp" target="_blank" rel="noopener noreferrer">
                                     <span>💬</span> WhatsApp
                                 </a>
                                 <a href="https://www.instagram.com/kartthii._/?hl=en" className="quick-btn instagram" target="_blank" rel="noopener noreferrer">
@@ -102,7 +102,7 @@ const Contact = () => {
                                     name="name"
                                     value={formData.name}
                                     onChange={handleChange}
-                                    placeholder="John Doe"
+                                    placeholder="Your Name"
                                     required
                                 />
                             </div>
@@ -114,7 +114,7 @@ const Contact = () => {
                                     name="email"
                                     value={formData.email}
                                     onChange={handleChange}
-                                    placeholder="john@example.com"
+                                    placeholder="gmail@gmail.com"
                                     required
                                 />
                             </div>
@@ -141,11 +141,12 @@ const Contact = () => {
                                     onChange={handleChange}
                                     required
                                 >
-                                    <option value="">Select Event Type</option>
-                                    <option value="concert">Concert</option>
-                                    <option value="corporate">Corporate Event</option>
-                                    <option value="wedding">Wedding</option>
-                                    <option value="college">College Fest</option>
+                                    <option value="">Select Service</option>
+                                    <option value="celebrity">Celebrity Pitching</option>
+                                    <option value="pr">PR Support</option>
+                                    <option value="promotion">Promotions</option>
+                                    <option value="stalls">Stalls & Activations</option>
+                                    <option value="sponsorship">Sponsorship</option>
                                     <option value="other">Other</option>
                                 </select>
                             </div>
@@ -179,10 +180,16 @@ const Contact = () => {
                     animate={isInView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.6, delay: 0.6 }}
                 >
-                    <div className="map-placeholder">
-                        <span>🗺️</span>
-                        <p>Google Map will be embedded here</p>
-                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497511.11539317544!2d79.87933054999999!3d13.04780585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6571dff0!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1707560000000!5m2!1sen!2sin"
+                        width="100%"
+                        height="300"
+                        style={{ border: 0, borderRadius: '12px' }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        title="MIC'D UP Location - Chennai"
+                    ></iframe>
                 </motion.div>
             </div>
         </section>

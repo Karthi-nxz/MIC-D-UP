@@ -25,7 +25,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                 >
-                    Premium Event Production
+                    Mic'd Up Event Productions
                 </motion.span>
 
                 <motion.h1
@@ -34,8 +34,8 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
                 >
-                    Where Sound Meets<br />
-                    <span className="gradient-text">Spectacle</span>
+                    Where Every Brand Gets<br />
+                    <span className="gradient-text">the Spotlight</span>
                 </motion.h1>
 
                 <motion.p
@@ -44,7 +44,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                    Professional Event Production | Stage | Sound | Lighting
+                    Celebrity Pitching | Strategic PR | Unforgettable Promotion | Sponsorship Support
                 </motion.p>
 
                 <motion.div

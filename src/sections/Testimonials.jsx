@@ -10,19 +10,19 @@ const Testimonials = () => {
     const testimonials = [
         {
             id: 1,
-            name: 'Rahul Sharma',
+            name: 'Shree Rahul',
             role: 'Event Manager, TechCorp',
             text: 'MIC\'D UP transformed our annual conference into an unforgettable experience. The sound quality was impeccable, and the lighting design was absolutely stunning.',
         },
         {
             id: 2,
-            name: 'Priya Patel',
+            name: 'Pavan',
             role: 'College Fest Coordinator',
             text: 'Working with MIC\'D UP was a game-changer for our college fest. Their professionalism and attention to detail exceeded all our expectations.',
         },
         {
             id: 3,
-            name: 'Arjun Mehta',
+            name: 'Kirath Vignan',
             role: 'Concert Promoter',
             text: 'The team delivered world-class production for our music festival. From stage design to audio engineering, everything was perfect.',
         },

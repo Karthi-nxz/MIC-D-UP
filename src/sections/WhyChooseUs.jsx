@@ -8,34 +8,29 @@ const WhyChooseUs = () => {
 
     const features = [
         {
-            icon: '🎯',
-            title: 'Precision Planning',
-            description: 'Meticulous attention to every detail ensures flawless execution of your event.',
+            icon: '📖',
+            title: 'Event & Brand Storytelling',
+            description: 'We craft compelling narratives that bring your brand and event to life for every audience.',
         },
         {
-            icon: '🎛️',
-            title: 'Premium Equipment',
-            description: 'State-of-the-art sound systems, lighting rigs, and staging equipment.',
+            icon: '⭐',
+            title: 'Celebrity & Influencer Campaigns',
+            description: 'Personalized celebrity and influencer partnerships tailored to your brand\'s identity and goals.',
         },
         {
-            icon: '👥',
-            title: 'Expert Team',
-            description: 'Seasoned professionals with years of experience in event production.',
+            icon: '📢',
+            title: 'Integrated PR & Promotion',
+            description: 'Seamless PR and promotional execution across media, social, and digital channels.',
         },
         {
-            icon: '⚡',
-            title: 'Reliable Support',
-            description: '24/7 technical support and rapid response for any situation.',
+            icon: '📊',
+            title: 'Data-Driven Sponsorship',
+            description: 'Strategic sponsorship planning powered by data, ensuring maximum ROI for every partner.',
         },
         {
-            icon: '🎨',
-            title: 'Creative Design',
-            description: 'Innovative stage designs and visual concepts that captivate audiences.',
-        },
-        {
-            icon: '💰',
-            title: 'Competitive Pricing',
-            description: 'Premium quality services at prices that respect your budget.',
+            icon: '🤝',
+            title: 'Dedicated Support',
+            description: 'A committed team by your side from initial concept all the way through to post-event reporting.',
         },
     ];
 

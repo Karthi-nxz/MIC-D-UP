@@ -7,17 +7,16 @@ const Footer = () => {
         { name: 'Home', href: '#home' },
         { name: 'About', href: '#about' },
         { name: 'Services', href: '#services' },
+        { name: 'Process', href: '#process' },
         { name: 'Portfolio', href: '#portfolio' },
         { name: 'Contact', href: '#contact' },
     ];
 
     const services = [
-        'Concert Production',
-        'Corporate Events',
-        'College Fests',
-        'Wedding Stage Setup',
-        'Audio Systems',
-        'Lighting & Rigging',
+        'Celebrity Pitching',
+        'Public Relations',
+        'Event Marketing',
+        'Sponsorship Activation',
     ];
 
     const socialLinks = [
@@ -37,7 +36,7 @@ const Footer = () => {
                             <img src="/logo.png" alt="MIC'D UP Event Production" className="footer-logo-img" />
                         </div>
                         <p className="footer-tagline">
-                            Where Sound Meets Spectacle. Premium event production for unforgettable experiences.
+                            Where Every Brand Gets the Spotlight. We elevate your events with celebrity pitching, strategic PR, and powerful sponsorship support.
                         </p>
                         <div className="footer-social">
                             {socialLinks.map((social) => (
@@ -81,11 +80,11 @@ const Footer = () => {
                             <ul className="contact-list">
                                 <li>
                                     <span className="contact-icon">📍</span>
-                                    <span>Your City, India</span>
+                                    <span>Chennai, India</span>
                                 </li>
                                 <li>
                                     <span className="contact-icon">📞</span>
-                                    <a href="tel:+919999999999">+91 99999 99999</a>
+                                    <a href="tel:+916369933732">+91 63699 33732</a>
                                 </li>
                                 <li>
                                     <span className="contact-icon">✉️</span>

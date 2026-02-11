@@ -7,9 +7,9 @@ const About = () => {
     const isInView = useInView(ref, { once: true, margin: '-100px' });
 
     const stats = [
-        { number: 100, suffix: '+', label: 'Events' },
-        { number: 50, suffix: '+', label: 'Clients' },
-        { number: 10, suffix: '+', label: 'Cities' },
+        { number: 10, suffix: '+', label: 'Events' },
+        { number: 25, suffix: '+', label: 'Brands' },
+        { number: 2, suffix: '+', label: 'Cities' },
     ];
 
     return (
@@ -30,7 +30,7 @@ const About = () => {
                             <div className="image-border"></div>
                         </div>
                         <div className="floating-badge">
-                            <span className="badge-number">5+</span>
+                            <span className="badge-number">1+</span>
                             <span className="badge-text">Years Experience</span>
                         </div>
                     </motion.div>
@@ -44,17 +44,16 @@ const About = () => {
                         <span className="section-tag">About Us</span>
                         <h2>Crafting <span className="gold-text">Unforgettable</span> Experiences</h2>
                         <p className="about-lead">
-                            MIC'D UP is a premium event production company dedicated to delivering world-class
-                            sound, lighting, and stage experiences for events of all scales.
+                            At Mic'd Up Event Productions, we're passionate about turning ideas into
+                            unforgettable experiences.
                         </p>
                         <p>
-                            From electrifying concerts to elegant corporate gatherings, we bring technical
-                            excellence and creative vision to every project. Our team of seasoned professionals
-                            ensures flawless execution, transforming your vision into reality.
+                            Whether it's a brand launch, corporate gala, festival, or product activation,
+                            we help you connect with the right audience at the right moment.
                         </p>
                         <p>
-                            With state-of-the-art equipment and a passion for perfection, we've earned the
-                            trust of leading brands, artists, and organizations across the country.
+                            We combine creativity with strategy — so your event not only looks amazing
+                            but achieves real impact.
                         </p>
 
                         <div className="about-stats">

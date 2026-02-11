@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Services from './sections/Services';
+import Process from './sections/Process';
 import Portfolio from './sections/Portfolio';
 import WhyChooseUs from './sections/WhyChooseUs';
 import Testimonials from './sections/Testimonials';
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <About />
         <Services />
+        <Process />
         <Portfolio />
         <WhyChooseUs />
         <Testimonials />
