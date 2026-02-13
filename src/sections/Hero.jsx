@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
     return (
-        <section id="home" className="hero">
+        <section id="e" className="hero">
             {/* Background Effects */}
             <div className="hero-bg">
                 <div className="spotlight spotlight-1"></div>
@@ -34,7 +34,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
                 >
-                    Where Every Brand Gets<br />
+                    Where Every Event Gets<br />
                     <span className="gradient-text">the Spotlight</span>
                 </motion.h1>
 
